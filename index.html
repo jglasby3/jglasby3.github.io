@@ -1,1 +1,270 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Jacob Glasby - Computer Science student professional profile">
+<title>Jacob Glasby | Computer Science Student</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;line-height:1.65;color:#1f2937;background:#f5f7fb}
+a{text-decoration:none;color:inherit}
+.container{width:90%;max-width:1100px;margin:auto}
+nav{position:sticky;top:0;z-index:10;background:#111827;color:white}
+.nav{min-height:64px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.2rem;font-weight:700}
+.nav-links{display:flex;gap:24px;list-style:none}
+.nav-links a{color:#e5e7eb}.nav-links a:hover{color:#93c5fd}
+.hero{background:linear-gradient(135deg,#111827,#1d4ed8);color:white;padding:85px 0}
+.hero h1{font-size:3.2rem;line-height:1.1;margin-bottom:10px}
+.hero h2{font-size:1.35rem;font-weight:400;color:#dbeafe;margin-bottom:20px}
+.hero p{max-width:800px;color:#e5e7eb}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.btn{padding:10px 18px;border-radius:6px;background:white;color:#1d4ed8;font-weight:bold}
+.btn.alt{background:transparent;color:white;border:1px solid white}
+section{padding:65px 0}
+section:nth-of-type(even){background:white}
+.title{font-size:2rem;margin-bottom:28px;color:#111827}
+.title:after{content:"";display:block;width:55px;height:4px;background:#2563eb;margin-top:8px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:white;padding:25px;border-radius:10px;box-shadow:0 4px 15px rgba(0,0,0,.06);border-left:4px solid #2563eb;margin-bottom:18px}
+.card h3{color:#111827;margin-bottom:5px}
+.date{color:#6b7280;font-size:.95rem;margin-bottom:12px}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skill{background:#dbeafe;color:#1e3a8a;padding:8px 14px;border-radius:20px;font-weight:bold}
+.project{background:white;padding:25px;border-radius:10px;box-shadow:0 4px 15px rgba(0,0,0,.06)}
+.project h3{color:#1d4ed8;margin-bottom:10px}
+.project-tech{margin-top:14px;color:#6b7280;font-size:.92rem}
+.contact{background:#111827;color:white;padding:35px;border-radius:10px}
+.contact a{color:#93c5fd}
+.contact p{margin:8px 0}
+footer{text-align:center;background:#0b1120;color:#9ca3af;padding:24px}
+ul{padding-left:22px}
+@media(max-width:750px){
+.nav{flex-direction:column;padding:14px 0;gap:10px}
+.nav-links{gap:12px;flex-wrap:wrap;justify-content:center}
+.hero{padding:60px 0}.hero h1{font-size:2.4rem}
+.grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="container nav">
+<div class="logo">Jacob Glasby</div>
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<header class="hero">
+<div class="container">
+<h1>Jacob Glasby</h1>
+<h2>Computer Science Student | Software &amp; Technology</h2>
+<p>
+Computer Science student at California Lutheran University with a strong foundation
+in software engineering, programming, image processing, statistical data analysis,
+and data modeling. Interested in using technology and problem-solving skills to
+build reliable and useful software.
+</p>
+<div class="buttons">
+<a class="btn" href="#experience">View Experience</a>
+<a class="btn alt" href="#contact">Contact Me</a>
+</div>
+</div>
+</header>
+
+<section id="about">
+<div class="container">
+<h2 class="title">About Me</h2>
+<p>
+I am a Computer Science student at California Lutheran University pursuing a
+Bachelor of Science in Computer Science, with minors in Mathematics and Data Science.
+I enjoy solving problems, learning new technologies, and applying programming and
+analytical skills to real-world challenges.
+</p>
+<br>
+<p>
+My technical interests include software engineering, programming, image processing,
+data analysis, data modeling, operating systems, and robotics. I also have experience
+with AI-augmented development workflows, including implementation, debugging,
+refactoring, and automated test creation.
+</p>
+</div>
+</section>
+
+<section id="education">
+<div class="container">
+<h2 class="title">Education</h2>
+<div class="card">
+<h3>California Lutheran University</h3>
+<div class="date">Thousand Oaks, CA | Expected May 2028</div>
+<p><strong>Bachelor of Science in Computer Science</strong></p>
+<ul>
+<li>Minor in Mathematics</li>
+<li>Minor in Data Science</li>
+<li>Cumulative GPA: 3.9</li>
+<li>Major GPA: 4.0</li>
+</ul>
+</div>
+<div class="card">
+<h3>Adolfo Camarillo High School</h3>
+<div class="date">Camarillo, CA | Graduated June 2024</div>
+<p><strong>GPA: 4.26</strong></p>
+<ul>
+<li>CTE Pathway: Product Innovation and Design</li>
+<li>CTE Pathway: Computer Science</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+<h2 class="title">Technical Skills</h2>
+<div class="grid">
+<div class="card">
+<h3>Programming</h3>
+<div class="skills">
+<span class="skill">Python</span><span class="skill">Java</span>
+<span class="skill">JavaScript</span><span class="skill">R</span>
+<span class="skill">C++</span><span class="skill">SQL</span>
+<span class="skill">Linux</span>
+</div>
+</div>
+<div class="card">
+<h3>Computer Science</h3>
+<div class="skills">
+<span class="skill">Software Engineering</span><span class="skill">Image Processing</span>
+<span class="skill">Operating Systems</span><span class="skill">UML</span>
+<span class="skill">Data Modeling</span><span class="skill">Statistical Analysis</span>
+</div>
+</div>
+<div class="card">
+<h3>Tools &amp; Platforms</h3>
+<div class="skills">
+<span class="skill">MySQL</span><span class="skill">Microsoft Office</span>
+<span class="skill">Tinkercad</span><span class="skill">Windows</span>
+<span class="skill">macOS</span>
+</div>
+</div>
+<div class="card">
+<h3>Professional Strengths</h3>
+<div class="skills">
+<span class="skill">Critical Thinking</span><span class="skill">Teamwork</span>
+<span class="skill">Communication</span><span class="skill">Leadership</span>
+<span class="skill">Adaptability</span><span class="skill">Attention to Detail</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="experience">
+<div class="container">
+<h2 class="title">Experience</h2>
+
+<div class="card">
+<h3>Lead Instructor — Mathnasium</h3>
+<div class="date">March 2025 – Present</div>
+<ul>
+<li>Supervise math instructors and help coordinate activities on the floor.</li>
+<li>Tutor students of all ages in mathematics using the Mathnasium Method.</li>
+<li>Record and maintain student test scores and update client information within the organization's system.</li>
+<li>Apply problem-solving and communication skills to explain complex concepts clearly.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Santa's Helper, Seasonal — Caruso – Promenade at Westlake</h3>
+<div class="date">October 2025 – December 2025</div>
+<ul>
+<li>Managed reservations and assisted with customer-facing operations.</li>
+<li>Operated photo and video equipment.</li>
+<li>Provided a positive and welcoming experience for children and families.</li>
+<li>Demonstrated adaptability and professionalism in a fast-paced environment.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Tutor — Tutorific</h3>
+<div class="date">March 2022 – March 2025</div>
+<ul>
+<li>Tutored individuals of varying ages in mathematics.</li>
+<li>Adapted instructional approaches to meet individual learning needs.</li>
+<li>Developed strong communication, problem-solving, and interpersonal skills.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Private Tutor</h3>
+<div class="date">August 2021 – Present</div>
+<ul>
+<li>Provide individualized mathematics instruction across multiple levels.</li>
+<li>Adapt teaching techniques based on each student's learning style and needs.</li>
+<li>Communicate complex mathematical concepts in clear, understandable ways.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+<h2 class="title">Computer Science Projects</h2>
+<div class="grid">
+<div class="project">
+<h3>Project Placeholder #1</h3>
+<p>Add a programming project here. Describe what you built, the problem it solved,
+your role, and what you learned.</p>
+<p class="project-tech"><strong>Technologies:</strong> Python, [Technology]</p>
+</div>
+<div class="project">
+<h3>Project Placeholder #2</h3>
+<p>Add a software engineering, data science, or web development project here.</p>
+<p class="project-tech"><strong>Technologies:</strong> Java, SQL, [Technology]</p>
+</div>
+<div class="project">
+<h3>Project Placeholder #3</h3>
+<p>Add an image processing, data analysis, robotics, or other Computer Science project.</p>
+<p class="project-tech"><strong>Technologies:</strong> Python, R, [Technology]</p>
+</div>
+<div class="project">
+<h3>Project Placeholder #4</h3>
+<p>Add another class, personal, or team project that demonstrates your technical skills.</p>
+<p class="project-tech"><strong>Technologies:</strong> [Technology], [Technology]</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<h2 class="title">Contact</h2>
+<div class="contact">
+<p><strong>Email:</strong> <a href="mailto:KarateFox06@aol.com">KarateFox06@aol.com</a></p>
+<p><strong>Phone:</strong> (805) 949-4966</p>
+<p><strong>Location:</strong> Camarillo, CA</p>
+<p><strong>GitHub:</strong> <a href="#">Add GitHub profile</a></p>
+<p><strong>LinkedIn:</strong> <a href="#">Add LinkedIn profile</a></p>
+<div class="buttons">
+<a class="btn" href="Glasby_Jacob_Resume.pdf" target="_blank">View Resume</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Jacob Glasby | Computer Science Student</p>
+</footer>
+
+</body>
+</html>
